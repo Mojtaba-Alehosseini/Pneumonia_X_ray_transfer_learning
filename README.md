@@ -1,9 +1,21 @@
-# Pneumonia X_ray transfer learning
-+ Pneumonia is an infection that inflames the air sacs in one or both lungs. The air sacs may fill with fluid or pus (purulent material), causing cough with phlegm or pus, fever, chills, and difficulty breathing. A variety of organisms, including bacteria, viruse,s and fungi, can cause pneumonia.
+# Pneumonia Detection from Chest X-Rays (Transfer Learning)
 
-+ Pneumonia can range in seriousness from mild to life-threatening. It is most serious for infants and young children, people older than age 65, and people with health problems or weakened immune systems.
+Deep-learning image classification that detects pneumonia from chest X-ray images using transfer learning with several pretrained CNN backbones.
 
-+ Identification of pneumonia based on deep learning approach
-+ Implemented convolutional neural network, using different architectures like VGG, ResNet, NASnet.
+## Approach
 
-![](https://github.com/mojtaba96/Pneumonia_X_ray_transfer_learning/blob/main/img.png)
+- Binary classification: NORMAL vs. PNEUMONIA chest X-rays
+- Transfer learning with multiple architectures compared: `VGG`, `ResNet`, and `NASNet`
+- Image preprocessing and augmentation to improve generalization on limited medical data
+
+## What's inside
+
+- Notebook(s) implementing the data pipeline, transfer-learning models, training, and evaluation
+
+## Dataset
+
+Chest X-ray (pneumonia) image dataset, organised into NORMAL and PNEUMONIA classes. The images are not included in this repository — see the public Kaggle 'Chest X-Ray Images (Pneumonia)' dataset.
+
+## Note
+
+Built as a learning project on medical-image classification; it is a research/education exercise and not a clinical tool.
