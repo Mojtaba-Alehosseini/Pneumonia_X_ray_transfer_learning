@@ -14,7 +14,7 @@ Deep-learning image classification that detects pneumonia from chest X-ray image
 
 ## Dataset
 
-Chest X-ray (pneumonia) image dataset, organised into NORMAL and PNEUMONIA classes. The images are not included in this repository — see the public Kaggle 'Chest X-Ray Images (Pneumonia)' dataset.
+Chest X-ray (pneumonia) image dataset, organised into NORMAL and PNEUMONIA classes. The images are not included in this repository; see the public Kaggle 'Chest X-Ray Images (Pneumonia)' dataset.
 
 ## Note
 
